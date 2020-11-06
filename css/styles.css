@@ -133,6 +133,17 @@ video {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
 }
+
+.hero-image-box::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .hero-img,
 .hero-video {
   width: 100%;
