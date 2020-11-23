@@ -19,8 +19,7 @@ body {
   box-sizing: inherit;
 }
 
-img,
-video {
+img {
   width: 100%;
   height: auto;
   display: block;
